@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+.left.data-v-f11a6d84 {
+  float: left;
+}
+.right.data-v-f11a6d84 {
+  float: right;
+}
+.clearfix.data-v-f11a6d84:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.root.data-v-f11a6d84 {
+  background-color: #fff;
+}
+.root .status-contents.data-v-f11a6d84 {
+  height: calc(25px + 80rpx);
+}
+.root .status-contents .top-view.data-v-f11a6d84 {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 25px;
+  z-index: 10000;
+  background-color: #80d1c8;
+}
+.root .status-contents .main.data-v-f11a6d84 {
+  width: 100%;
+  position: fixed;
+  top: 25px;
+  height: 80rpx;
+  z-index: 10000;
+  background-color: #80d1c8;
+}
+.root .status-contents .main .status-box.data-v-f11a6d84 {
+  width: 710rpx;
+  margin: auto;
+}
+.root .status-contents .main .status-box .title.data-v-f11a6d84 {
+  color: #fff;
+  font-size: 36rpx;
+  font-weight: bolder;
+  line-height: 90rpx;
+}
+.root .content.data-v-f11a6d84 {
+  width: 710rpx;
+  margin: auto;
+}
+.root .content .logo.data-v-f11a6d84 {
+  margin-top: 100rpx;
+  text-align: center;
+}
+.root .content .logo image.data-v-f11a6d84 {
+  width: 130rpx;
+  height: 130rpx;
+  margin: auto;
+  border-radius: 50%;
+}
+.root .content .logo ._h2.data-v-f11a6d84 {
+  font-size: 30rpx;
+  font-weight: inherit;
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+}
+.root .content .main .form.data-v-f11a6d84 {
+  margin-top: 50rpx;
+}
+.root .content .main .form text.data-v-f11a6d84 {
+  display: block;
+  margin-top: 50rpx;
+  margin-bottom: 20rpx;
+  font-weight: bolder;
+  color: #757575;
+}
+.root .content .main .form input.data-v-f11a6d84 {
+  text-indent: 1em;
+  border: 1px #e5e5e5 solid;
+  height: 90rpx;
+  border-radius: 12rpx;
+}
+.root .content .main .form label text.data-v-f11a6d84 {
+  margin-right: 20rpx;
+  margin-top: 0;
+}
+.root .content .main .form button.data-v-f11a6d84 {
+  display: block;
+  background-color: #80d1c8;
+  color: #fff;
+  font-weight: bolder;
+  margin-top: 20rpx;
+}
+.root .content .main .bottom.data-v-f11a6d84 {
+  margin-top: 30rpx;
+  font-size: 30rpx;
+  color: #565656;
+  margin-bottom: 40rpx;
+}
+

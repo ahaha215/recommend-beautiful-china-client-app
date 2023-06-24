@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast",
+    "u--textarea": "/node-modules/uview-ui/components/u--textarea/u--textarea"
+  }
+}

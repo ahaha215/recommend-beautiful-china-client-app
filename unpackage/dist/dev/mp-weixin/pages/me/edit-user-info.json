@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast",
+    "u-number-box": "/node-modules/uview-ui/components/u-number-box/u-number-box",
+    "u-upload": "/node-modules/uview-ui/components/u-upload/u-upload"
+  }
+}

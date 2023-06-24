@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/user/login-account-number",
+    "pages/user/login-verification-code",
+    "pages/user/register",
+    "pages/user/reset-password",
+    "pages/index/index",
+    "pages/scenicSpot/index",
+    "pages/scenicSpot/detail",
+    "pages/scenicSpot/ranking-list",
+    "pages/scenicSpot/publish-scenicSpot",
+    "pages/posts/index",
+    "pages/posts/publish-posts",
+    "pages/me/index",
+    "pages/me/edit-user-info",
+    "pages/search/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "study-helper",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#80d1c8",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab/home.png",
+        "selectedIconPath": "static/tab/home-active.png"
+      },
+      {
+        "text": "景点",
+        "pagePath": "pages/scenicSpot/index",
+        "iconPath": "static/tab/scenicSpot.png",
+        "selectedIconPath": "static/tab/scenicSpot-active.png"
+      },
+      {
+        "text": "微话",
+        "pagePath": "pages/posts/index",
+        "iconPath": "static/tab/posts.png",
+        "selectedIconPath": "static/tab/posts-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/me/index",
+        "iconPath": "static/tab/me.png",
+        "selectedIconPath": "static/tab/me-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

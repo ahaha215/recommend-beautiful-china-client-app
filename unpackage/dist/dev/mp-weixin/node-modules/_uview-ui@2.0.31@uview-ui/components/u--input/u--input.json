@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uv-input": "/node-modules/_uview-ui@2.0.31@uview-ui/components/u-input/u-input"
+  }
+}

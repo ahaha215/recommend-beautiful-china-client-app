@@ -1,0 +1,140 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		
+		{
+			"path": "pages/user/login-account-number",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/login-verification-code",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/register",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/reset-password",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/scenicSpot/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+		    "path" : "pages/scenicSpot/detail",
+		    "style" :                                                                                    
+		    {
+				"navigationStyle": "custom"
+			}
+		    
+		},
+		{
+		    "path" : "pages/scenicSpot/ranking-list",
+		    "style" :                                                                                    
+		    {
+		        "navigationStyle": "custom"
+		    }
+		    
+		},
+		{
+			"path": "pages/scenicSpot/publish-scenicSpot",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/posts/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/posts/publish-posts",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/me/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/me/edit-user-info",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+    				"navigationStyle": "custom"
+			}
+		}
+       
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "study-helper",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#80d1c8",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab/home.png",
+				"selectedIconPath": "static/tab/home-active.png"
+			},
+
+			{
+				"text": "景点",
+				"pagePath": "pages/scenicSpot/index",
+				"iconPath": "static/tab/scenicSpot.png",
+				"selectedIconPath": "static/tab/scenicSpot-active.png"
+			},
+
+			{
+				"text": "微话",
+				"pagePath": "pages/posts/index",
+				"iconPath": "static/tab/posts.png",
+				"selectedIconPath": "static/tab/posts-active.png"
+			},
+
+			{
+				"text": "我的",
+				"pagePath": "pages/me/index",
+				"iconPath": "static/tab/me.png",
+				"selectedIconPath": "static/tab/me-active.png"
+			}
+		]
+	}
+
+}
